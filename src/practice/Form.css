@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+form {
+  width: 400px;
+  height: auto;
+  margin: 30px auto;
+}
+form fieldset {
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 20px;
+  transition: all 0.2s ease-in;
+}
+form label,
+form input {
+  display: block;
+}
+form input {
+  border-radius: 4px;
+  width: 100%;
+  padding: 5px;
+  margin: 3px;
+}
+form input::placeholder {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+form button {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+  background: rgba(192, 192, 192, 0.603);
+}
+form fieldset:hover {
+  box-shadow: 5px 5px 20px 5px black;
+}
